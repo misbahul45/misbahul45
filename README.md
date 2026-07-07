@@ -31,7 +31,7 @@
 
 Hi, I'm **Taqin** — a passionate **Fullstack Developer** and **AI Enthusiast** from **Surabaya, Indonesia**. Currently pursuing **Information Systems** at **Universitas Airlangga**, I craft AI-powered web systems that aim to do more than function — they aim to understand.
 
-I approach code as a kind of modern philosophy — each system I build is a small argument about what intelligence can become. With **5+ years of experience**, I've shipped production projects ranging from **event platforms** and **LMS systems** to **company profiles** — always with clean architecture and great UX in mind.
+I approach code as a kind of modern philosophy — each system I build is a small argument about what intelligence can become. With **2+ years of experience**, I've shipped production projects ranging from **event platforms** and **LMS systems** to **company profiles** — always with clean architecture and great UX in mind.
 
 - 🔭 **Currently building:** [BMEC 2026](https://www.bmec2026.com) — official platform for Universitas Airlangga's Biomedical Engineering Competition
 - 🌱 **Currently learning:** Mobile Development & Deep Learning
