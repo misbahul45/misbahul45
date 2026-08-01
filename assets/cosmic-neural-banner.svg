@@ -1,0 +1,122 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.46" stop-color="#140B2D"/>
+      <stop offset="1" stop-color="#031B2D"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 210) rotate(90) scale(180 260)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(810 182) rotate(90) scale(160 220)">
+      <stop stop-color="#22D3EE" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neuralStroke" x1="370" y1="72" x2="830" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#space)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#violetGlow)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#cyanGlow)"/>
+
+  <g opacity="0.75">
+    <circle cx="70" cy="74" r="1.8" fill="#E0E7FF"/>
+    <circle cx="121" cy="168" r="1.2" fill="#67E8F9"/>
+    <circle cx="205" cy="53" r="1.5" fill="#C4B5FD"/>
+    <circle cx="264" cy="291" r="1.8" fill="#E0E7FF"/>
+    <circle cx="325" cy="116" r="1.1" fill="#67E8F9"/>
+    <circle cx="887" cy="67" r="1.4" fill="#E0E7FF"/>
+    <circle cx="949" cy="293" r="1.5" fill="#C4B5FD"/>
+    <circle cx="1040" cy="112" r="1.8" fill="#67E8F9"/>
+    <circle cx="1115" cy="236" r="1.2" fill="#E0E7FF"/>
+    <circle cx="1150" cy="68" r="1.5" fill="#C4B5FD"/>
+    <circle cx="78" cy="347" r="1.2" fill="#67E8F9"/>
+    <circle cx="1120" cy="355" r="1.8" fill="#E0E7FF"/>
+  </g>
+
+  <g opacity="0.28" stroke="#818CF8" stroke-width="1">
+    <path d="M32 218C146 178 226 190 330 228"/>
+    <path d="M870 210C970 176 1081 187 1172 238"/>
+    <path d="M84 98C190 128 242 112 335 72"/>
+    <path d="M868 338C966 295 1052 306 1140 348"/>
+  </g>
+
+  <ellipse cx="600" cy="213" rx="270" ry="172" fill="#8B5CF6" fill-opacity="0.08" filter="url(#softGlow)"/>
+
+  <g stroke="url(#neuralStroke)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M600 84C553 58 486 74 461 122C416 124 389 160 398 202C361 232 374 288 418 301C432 349 493 365 534 334C557 353 579 354 600 340"/>
+    <path d="M600 84C647 58 714 74 739 122C784 124 811 160 802 202C839 232 826 288 782 301C768 349 707 365 666 334C643 353 621 354 600 340"/>
+    <path d="M600 84V340" opacity="0.65"/>
+
+    <path d="M461 123C487 127 501 147 498 170C523 166 547 178 556 198"/>
+    <path d="M398 202C429 194 454 207 465 230C489 220 516 226 531 246"/>
+    <path d="M419 301C447 280 475 282 495 299C510 281 534 274 555 283"/>
+    <path d="M535 334C526 315 531 296 547 283"/>
+    <path d="M497 170C475 178 465 198 466 229"/>
+    <path d="M556 198C572 210 579 226 578 247"/>
+    <path d="M531 246C548 244 564 248 578 258"/>
+
+    <path d="M739 123C713 127 699 147 702 170C677 166 653 178 644 198"/>
+    <path d="M802 202C771 194 746 207 735 230C711 220 684 226 669 246"/>
+    <path d="M781 301C753 280 725 282 705 299C690 281 666 274 645 283"/>
+    <path d="M665 334C674 315 669 296 653 283"/>
+    <path d="M703 170C725 178 735 198 734 229"/>
+    <path d="M644 198C628 210 621 226 622 247"/>
+    <path d="M669 246C652 244 636 248 622 258"/>
+  </g>
+
+  <g fill="#F5F3FF" filter="url(#glow)">
+    <circle cx="461" cy="123" r="5"/>
+    <circle cx="398" cy="202" r="4"/>
+    <circle cx="419" cy="301" r="5"/>
+    <circle cx="497" cy="170" r="4"/>
+    <circle cx="466" cy="229" r="4"/>
+    <circle cx="495" cy="299" r="4"/>
+    <circle cx="556" cy="198" r="4"/>
+    <circle cx="578" cy="247" r="4"/>
+    <circle cx="547" cy="283" r="4"/>
+    <circle cx="739" cy="123" r="5"/>
+    <circle cx="802" cy="202" r="4"/>
+    <circle cx="781" cy="301" r="5"/>
+    <circle cx="703" cy="170" r="4"/>
+    <circle cx="734" cy="229" r="4"/>
+    <circle cx="705" cy="299" r="4"/>
+    <circle cx="644" cy="198" r="4"/>
+    <circle cx="622" cy="247" r="4"/>
+    <circle cx="653" cy="283" r="4"/>
+  </g>
+
+  <g opacity="0.72" stroke="#67E8F9" stroke-width="1.5">
+    <path d="M365 115L330 91L291 106"/>
+    <path d="M835 116L875 90L910 108"/>
+    <path d="M358 308L317 332L279 316"/>
+    <path d="M841 309L885 334L925 315"/>
+  </g>
+  <g fill="#67E8F9" filter="url(#glow)">
+    <circle cx="330" cy="91" r="3.5"/>
+    <circle cx="291" cy="106" r="2.5"/>
+    <circle cx="875" cy="90" r="3.5"/>
+    <circle cx="910" cy="108" r="2.5"/>
+    <circle cx="317" cy="332" r="3.5"/>
+    <circle cx="279" cy="316" r="2.5"/>
+    <circle cx="885" cy="334" r="3.5"/>
+    <circle cx="925" cy="315" r="2.5"/>
+  </g>
+
+  <text x="600" y="383" text-anchor="middle" fill="#EDE9FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" letter-spacing="7">NEURAL SYSTEMS · COSMIC CURIOSITY</text>
+</svg>
